@@ -14,9 +14,8 @@ Tập dữ liệu tôi sử dụng được tạo bằng [Bộ dữ liệu hình
 - [Evaluation](#evaluation)
 - [Extra Notes](#extra-notes)
 - [Resources](#resources)
-  - [Datasets](#datasets)
   - [Models and Training](#models-and-training)
-  - [Miscellaneous](#miscellaneous)
+  
 
 
 ## Image Collection
