@@ -27,7 +27,7 @@ Và tôi sử dụng một số phương pháp để thu thập những hình �
 ## Dataset Creation
 Sau khi thu thập tất cả hình ảnh mà tôi cần (tôi đã tải xuống khoảng 300 hình ảnh), từ những hình ảnh này tôi cắt từng ảnh thành những hình ảnh nhỏ hơn để làm dữ liệu cho quá trình training
 
-![Example a training image](.figures/watermark366_1_3.png)
+![Example a training image](./figures/watermark366_1_3.png)
 
 ## Model and Training
 As mentioned before, the model I used for this project is the Pix2Pix model. The Pix2Pix model contains two parts: a **generator** and a **discriminator**. The **generator** was heavy based on a **U-NET** model where you down sample and then up sample the data. As for the **discriminator** it is just a few CNN layers. I used [Aladdin Persson's Pix2Pix Implementation Tutorial](https://youtu.be/SuddDSqGRzg) and the [Pix2Pix Paper](https://arxiv.org/abs/1611.07004) to create these models.
