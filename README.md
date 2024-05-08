@@ -29,8 +29,6 @@ Sau khi thu thập tất cả hình ảnh mà tôi cần (tôi đã tải xuốn
 ![Example a training image](./figures/watermark366_1_3.png)
 
 ## Model and Training
-As mentioned before, the model I used for this project is the Pix2Pix model. The Pix2Pix model contains two parts: a **generator** and a **discriminator**. The **generator** was heavy based on a **U-NET** model where you down sample and then up sample the data. As for the **discriminator** it is just a few CNN layers. I used [Aladdin Persson's Pix2Pix Implementation Tutorial](https://youtu.be/SuddDSqGRzg) and the [Pix2Pix Paper](https://arxiv.org/abs/1611.07004) to create these models.
-
 Như đã đề cặp trước, mô hình tôi sử dụng cho dự án này mô hình Pix2Pix.Mô hình Pix2Pix có 2 phần:**generator** và **discriminator**.**Generator**  dựa trên mô hình **U-NET** trong đó bạn lấy mẫu xuống rồi lấy mẫu dữ liệu lên. Đối với **Discriminator** thì nó chỉ là một vài lớp CNN. 
 
 Tôi cũng đã sử dụng hướng dẫn của Aladdin làm tài liệu tham khảo để viết vòng đào tạo cho mô hình của mình. Khi mô hình được huấn luyện, các điểm kiểm tra sẽ được lưu cho **Discriminator** và **Generator** của mô hình cứ sau 5 kỷ nguyên. Hơn nữa, hình ảnh mẫu được lưu cho mỗi kỷ nguyên, hiển thị cho bạn hình ảnh mục tiêu, hình ảnh đầu vào và hình ảnh được tạo. 
