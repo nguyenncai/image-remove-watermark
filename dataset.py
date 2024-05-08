@@ -46,26 +46,3 @@ class WaterDataset(Dataset):
         return input_image,target_image
 
 
-
-#import os
-#import random
-#from torchvision.utils import save_image
-
-# Tạo thư mục test_dataset nếu nó chưa tồn tại
-#if not os.path.exists('test_dataset'):
-#    os.makedirs('test_dataset')
-
-# Tạo một instance của WaterDataset
-#dataset = WaterDataset(root_dir='wm-nowm-v1/train')
-
-# Chọn ngẫu nhiên một số hình ảnh
-#num_images_to_save = 100  # Số lượng hình ảnh muốn lưu
-#indices = random.sample(range(len(dataset)), num_images_to_save)
-
-#for i, idx in enumerate(indices):
-#    input_image, target_image = dataset[idx]
-
-    # Lưu hình ảnh input và target
-#    save_image(input_image, f'test_dataset/input_image_{i}.png')
-#    save_image(target_image, f'test_dataset/target_image_{i}.png')
-
